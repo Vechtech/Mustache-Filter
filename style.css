@@ -1,0 +1,19 @@
+.btn-danger:hover{
+    background-color: lime;
+}
+
+#btn{
+    color: rgb(27, 2, 253);
+    font-size: 25px;
+}
+
+canvas{
+    animation-name:animation1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1{
+    from{box-shadow:5px 5px 5px cyan;}
+    to{box-shadow:5px 5px 5px yellow;}
+}
